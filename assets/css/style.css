@@ -528,8 +528,28 @@ section {
   height: 120px;
 }
 
+.clients .client-logo-round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 120px;
+}
+
 .clients .client-logo img {
-  height: 40px;
+  height: 60px;
+}
+
+.clients .client-logo-round img {
+  height: 100px;
+}
+
+.clients .client-logo-round:hover img {
+  transform: scale(1.2);
+}
+
+.clients img {
+  transition: all 0.4s ease-in-out;
 }
 
 .clients .client-logo:hover img {
