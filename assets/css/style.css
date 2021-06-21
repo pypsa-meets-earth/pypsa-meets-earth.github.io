@@ -419,6 +419,12 @@ section {
   background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);
 }
 
+.section-pic {
+  background: url("../img/custom/richat_structure_mauretania_Iban_Ameztoy_large.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -584,7 +590,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/africa_map.jpeg") center center no-repeat;
+  background: url("../img/custom/africa_eu_satellite_medium.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -594,6 +600,57 @@ section {
     max-width: 100%;
   }
 }
+
+/*--------------------------------------------------------------
+# LinkedIN
+--------------------------------------------------------------*/
+.linkedin .content + .content {
+  margin-top: 100px;
+}
+
+.linkedin .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #213b52;
+}
+
+.linkedin .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.linkedin .content ul li {
+  padding-bottom: 10px;
+}
+
+.linkedin .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #fdc134;
+}
+
+.linkedin .content p:last-child {
+  margin-bottom: 0;
+}
+
+.linkedin .row {
+  width: 0%;  
+}
+
+.linkedin h2 {
+  font-weight: 400;
+}
+
+.py-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.scrolling-wrapper{
+	overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 
 /*--------------------------------------------------------------
 # Services
