@@ -1472,3 +1472,58 @@ section {
     text-align: ceneter;
   }
 }
+
+/* ---- particles.js container ---- */
+
+.particles-js {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: url("../img/custom/africa_eu_satellite_medium.jpg") center center no-repeat;
+}
+
+#box {
+  width: 200px;
+  height: 100px;
+  background: purple;
+  margin: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.polygon {
+    overflow: hidden;
+    width: 100%;
+    height:100%;
+    -webkit-clip-path: polygon(5% 31%, 8% 26%, 6% 21%, 13% 12%, 17% 10%, 17% 6%, 21% 3%, 27% 4%, 35% 1%, 42% 1%, 45% 3%, 43% 5%, 51% 8%, 56% 10%, 58% 7%, 62% 7%, 65% 8%, 70% 9%, 72% 8%, 77% 9%, 77% 13%, 76% 15%, 80% 22%, 80% 25%, 84% 30%, 89% 34%, 91% 37%, 100% 35%, 99% 39%, 95% 46%, 88% 53%, 83% 58%, 84% 65%, 85% 71%, 83% 75%, 77% 79%, 78% 84%, 73% 87%, 73% 91%, 71% 95%, 64% 98%, 56% 100%, 51% 90%, 48% 81%, 45% 75%, 48% 67%, 46% 58%, 42% 52%, 43% 46%, 38% 45%, 36% 43%, 27% 45%, 23% 44%, 19% 45%, 12% 41%);
+    clip-path: polygon(5% 31%, 8% 26%, 6% 21%, 13% 12%, 17% 10%, 17% 6%, 21% 3%, 27% 4%, 35% 1%, 42% 1%, 45% 3%, 43% 5%, 51% 8%, 56% 10%, 58% 7%, 62% 7%, 65% 8%, 70% 9%, 72% 8%, 77% 9%, 77% 13%, 76% 15%, 80% 22%, 80% 25%, 84% 30%, 89% 34%, 91% 37%, 100% 35%, 99% 39%, 95% 46%, 88% 53%, 83% 58%, 84% 65%, 85% 71%, 83% 75%, 77% 79%, 78% 84%, 73% 87%, 73% 91%, 71% 95%, 64% 98%, 56% 100%, 51% 90%, 48% 81%, 45% 75%, 48% 67%, 46% 58%, 42% 52%, 43% 46%, 38% 45%, 36% 43%, 27% 45%, 23% 44%, 19% 45%, 12% 41%);
+}
+
+#particle {
+  width: 10px;
+  height: 10px;
+  margin: 50px;
+  background: red;
+  position:absolute;
+}
+
+.particles-js{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #000;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.body-particles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
