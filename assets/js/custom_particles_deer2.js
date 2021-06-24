@@ -2,7 +2,7 @@ tsParticles.load("tsparticles",
   {
     "background": {
       "color": {
-        "value": "#000"
+        "value": "#fff"
       },
       "position": "50% 50%",
       "repeat": "no-repeat",
