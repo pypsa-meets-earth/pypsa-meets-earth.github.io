@@ -1488,18 +1488,14 @@ section {
 
 canvas {
     display: block;
-    vertical-align: bottom;
   }
 
 #tsparticles {
-  position: relative;
-  width: 100%; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
-  background-color: white;
+  height: 100%;
+  background-color: none;
 }
 
-#yourdiv {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+#africa-wrapper {
+  position: relative;
+  height: 100%;
 }
