@@ -96,7 +96,7 @@ tsParticles.load("tsparticles", {
         radius: 10
       },
       inlineArrangement: "equidistant",
-      scale: 0.5,
+      scale: 0.2,
       type: "inline",
       url: "https://particles.js.org/images/smalldeer.svg"
     }
