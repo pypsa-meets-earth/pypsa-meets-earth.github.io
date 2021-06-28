@@ -86,34 +86,56 @@ tsParticles.load("tsparticles", {
             value: 1
         }
     },
-    polygon: {
-        draw: {
-            enable: true,
-            lineColor: "rgba(255,255,255,0.2)",
-            lineWidth: 0.3
-        },
-        move: {
-            radius: 10
-        },
-        inlineArrangement: "equidistant",
-        scale: 0.7,
-        type: "inside",
-        url: "assets/img/smalldeer_africa.svg"
-    },
+    // polygon: {
+    //     draw: {
+    //         enable: true,
+    //         lineColor: "rgba(255,255,255,0.2)",
+    //         lineWidth: 0.3
+    //     },
+    //     move: {
+    //         radius: 10
+    //     },
+    //     inlineArrangement: "equidistant",
+    //     scale: 1,
+    //     type: "inside",
+    //     url: "assets/img/smalldeer_africa.svg"
+    // },
     responsive: [{
             maxWidth: 600,
             options: {
                 polygon: {
-                    scale: 0.5,
-                }
+                    draw: {
+                        enable: true,
+                        lineColor: "rgba(255,255,255,0.2)",
+                        lineWidth: 0.3
+                    },
+                    move: {
+                        radius: 10
+                    },
+                    inlineArrangement: "equidistant",
+                    scale: 1.2,
+                    type: "inside",
+                    url: "assets/img/smalldeer_africa.svg"
+                },
             }
         },
         {
             maxWidth: 1000,
             options: {
                 polygon: {
+                    draw: {
+                        enable: true,
+                        lineColor: "rgba(255,255,255,0.2)",
+                        lineWidth: 0.3
+                    },
+                    move: {
+                        radius: 10
+                    },
+                    inlineArrangement: "equidistant",
                     scale: 1.5,
-                }
+                    type: "inside",
+                    url: "assets/img/smalldeer_africa.svg"
+                },
             }
         }
     ],
