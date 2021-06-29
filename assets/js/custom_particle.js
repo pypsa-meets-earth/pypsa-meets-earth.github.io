@@ -148,8 +148,8 @@ tsParticles.load("tsparticles", {
                 polygon: {
                     draw: {
                         enable: true,
-                        lineColor: "rgba(255,255,255,0.2)",
-                        lineWidth: 0.3
+                        lineColor: "rgba(255,255,255,0.3)",
+                        lineWidth: 5
                     },
                     move: {
                         radius: 10
@@ -167,8 +167,8 @@ tsParticles.load("tsparticles", {
                 polygon: {
                     draw: {
                         enable: true,
-                        lineColor: "rgba(255,255,255,0.2)",
-                        lineWidth: 0.3
+                        lineColor: "rgba(255,255,255,0.3)",
+                        lineWidth: 5
                     },
                     move: {
                         radius: 10
