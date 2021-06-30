@@ -420,7 +420,19 @@ section {
 }
 
 .section-pic {
-    background: url("../img/custom/richat_structure_mauretania_Iban_Ameztoy_large.jpg") center center no-repeat;
+    background: url("../img/custom/red_sea.jpg") center center no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.section-pic3 {
+    background: url("../img/custom/border_namibia_angola.jpg") center center no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.section-pic2 {
+    background: url("../img/custom/lake_chad_iban.jpg") center center no-repeat;
     background-size: cover;
     min-height: 400px;
 }
@@ -581,6 +593,30 @@ section {
     .about .image img {
         max-width: 100%;
     }
+}
+
+
+/*--------------------------------------------------------------
+# Get involved
+--------------------------------------------------------------*/
+
+.getinvolved {
+    padding: 0;
+}
+
+.getinvolved img {
+    width: 50%;
+    height: auto;
+}
+
+.getinvolved2 {
+    padding: 0;
+}
+
+#getinvolved2 img {
+    width: 80%;
+    height: auto;
+    padding-top: 7%;
 }
 
 
