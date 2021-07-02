@@ -139,7 +139,7 @@ tsParticles.load("tsparticles", {
                 sync: false
             },
             random: true,
-            value: 5
+            value: 6
         }
     },
     responsive: [{
@@ -148,7 +148,7 @@ tsParticles.load("tsparticles", {
                 polygon: {
                     draw: {
                         enable: true,
-                        lineColor: "rgba(255,255,255,0.3)",
+                        lineColor: "rgba(255,255,255,0.7)",
                         lineWidth: 5
                     },
                     move: {
@@ -167,7 +167,7 @@ tsParticles.load("tsparticles", {
                 polygon: {
                     draw: {
                         enable: true,
-                        lineColor: "rgba(255,255,255,0.3)",
+                        lineColor: "rgba(255,255,255,0.7)",
                         lineWidth: 5
                     },
                     move: {

@@ -68,6 +68,12 @@ h6 {
     font-family: "Poppins", sans-serif;
 }
 
+#header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 #header .logo h1 a,
 #header .logo h1 a:hover {
     color: #fff;
@@ -117,7 +123,7 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
-    font-size: 14px;
+    font-size: 16px;
     color: #adc7de;
     white-space: nowrap;
     transition: 0.3s;
@@ -138,7 +144,7 @@ h6 {
 }
 
 .navbar .getstarted {
-    background: #213b52;
+    background: #006097;
     color: #fff;
     padding: 4px 25px 6px 25px;
     margin-left: 30px;
@@ -148,7 +154,7 @@ h6 {
 
 .navbar .getstarted:hover {
     background: #fdc134;
-    color: #213b52;
+    color: #006097;
 }
 
 .navbar .dropdown ul {
