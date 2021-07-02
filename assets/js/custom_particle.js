@@ -14,7 +14,7 @@ tsParticles.load("tsparticles", {
             },
             onHover: {
                 enable: true,
-                mode: "grab",
+                mode: "connect",
                 parallax: {
                     enable: false,
                     force: 2,
@@ -32,11 +32,11 @@ tsParticles.load("tsparticles", {
                 speed: 3
             },
             connect: {
-                distance: 80,
+                distance: 40,
                 lineLinked: {
                     opacity: 0.5
                 },
-                radius: 60
+                radius: 250
             },
             grab: {
                 distance: 300,
