@@ -16,7 +16,7 @@ body {
 }
 
 a {
-    color: #fdc134;
+    color: #fec33b;
     text-decoration: none;
 }
 
@@ -76,13 +76,13 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-    color: #fff;
+    color: fff#fff;
     text-decoration: none;
 }
 
 #header .logo h1 a span,
 #header .logo h1 a:hover span {
-    color: #fdc134;
+    color: #fec33b;
 }
 
 #header .logo img {
@@ -124,7 +124,7 @@ h6 {
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-size: 14px;
-    color: #adc7de;
+    color: #0f334e;
     white-space: nowrap;
     transition: 0.3s;
 }
@@ -140,22 +140,22 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #fff;
+    color: #fec33b;
 }
 
 .navbar .getstarted {
-    background: #006097;
+    background: #0f334e;
     color: #fff;
     padding: 4px 25px 6px 25px;
     margin-left: 30px;
     margin-right: 30px;
     border-radius: 50px;
-    border: 2px solid #fdc134;
+    border: 2px solid #fec33b;
 }
 
 .navbar .getstarted:hover {
-    background: #fdc134;
-    color: #006097;
+    background: #fec33b;
+    color: #0f334e;
 }
 
 .navbar .dropdown ul {
@@ -183,7 +183,7 @@ h6 {
     font-size: 14px;
     text-transform: none;
     font-weight: 500;
-    color: #3e6f9b;
+    color: #0f334e;
 }
 
 .navbar .dropdown ul a i {
@@ -193,7 +193,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-    color: #fdc134;
+    color: #fec33b;
 }
 
 .navbar .dropdown:hover>ul {
@@ -230,7 +230,7 @@ h6 {
 */
 
 .mobile-nav-toggle {
-    color: #fdc134;
+    color: #fec33b;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -293,7 +293,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-    color: #fdc134;
+    color: #fec33b;
 }
 
 .navbar-mobile .getstarted {
@@ -329,7 +329,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-    color: #fdc134;
+    color: #fec33b;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -344,8 +344,9 @@ h6 {
 #hero {
     width: 100%;
     padding: 0 0 0 0;
-    background: #213b52;
-    background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
+    background: #0a1823;
+    /* background: linear-gradient(90deg, #0a1823 0%, #122c41 25%, #163650 100%); */
+    background: linear-gradient(90deg, #0a1823 0%, #0c202f 25%, #0f334e 100%);
 }
 
 #hero h1 {
@@ -367,10 +368,10 @@ h6 {
     color: #213b52;
     border-radius: 50px;
     padding: 8px 35px 10px 35px;
-    border: 2px solid #fdc134;
+    border: 2px solid #fec33b;
     transition: all ease-in-out 0.3s;
     display: inline-block;
-    background: #fdc134;
+    background: #fec33b;
 }
 
 #hero .btn-get-started:hover {
@@ -481,7 +482,7 @@ section {
     display: block;
     width: 40px;
     height: 3px;
-    background: #fdc134;
+    background: #fec33b;
     bottom: 0;
     left: calc(50% - 20px);
 }
@@ -575,13 +576,13 @@ section {
 }
 
 .about .content .icon-box h4 a:hover {
-    color: #fdc134;
+    color: #fec33b;
 }
 
 .about .content .icon-box i {
     font-size: 48px;
     float: left;
-    color: #fdc134;
+    color: #fec33b;
 }
 
 .about .content .icon-box p {
@@ -653,7 +654,7 @@ section {
 .linkedin .content ul i {
     font-size: 20px;
     padding-right: 4px;
-    color: #fdc134;
+    color: #fec33b;
 }
 
 .linkedin .content p:last-child {
@@ -719,7 +720,7 @@ section {
 
 .contact .info-box i {
     font-size: 32px;
-    color: #fdc134;
+    color: #fec33b;
     border-radius: 50%;
     padding: 8px;
     border: 2px dotted #fff7e5;
@@ -796,7 +797,7 @@ section {
 
 .contact .php-email-form input::focus,
 .contact .php-email-form textarea::focus {
-    background-color: #fdc134;
+    background-color: #fec33b;
 }
 
 .contact .php-email-form input {
@@ -808,7 +809,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-    background: #fdc134;
+    background: #fec33b;
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -914,7 +915,7 @@ section {
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #fdc134;
+    background: #fec33b;
     color: #fff;
     transition: 0.3s;
     border-radius: 50px;
