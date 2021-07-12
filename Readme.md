@@ -5,8 +5,8 @@ We built it using the following features:
 
 
 - Bootstrap template:
-    Template Name: Bocor
-    Template URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
+    Template Name: Bocor, 
+    Template URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/,
     Author: BootstrapMade.com
 - TSparticles: https://particles.js.org/ for the Africa particle map
 - Google forms for the newsletter
