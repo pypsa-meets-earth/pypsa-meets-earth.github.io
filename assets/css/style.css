@@ -517,11 +517,11 @@ section {
 }
 
 .clients .client-logo img {
-    height: 70px;
+    height: 65;
 }
 
 .clients .client-logo-round img {
-    height: 100px;
+    height: 90px;
 }
 
 .clients .client-logo-round:hover img {
