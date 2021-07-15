@@ -87,7 +87,7 @@ tsParticles.load("tsparticles", {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 1,
+            speed: 0.5,
             straight: false
         },
         number: {
@@ -96,7 +96,7 @@ tsParticles.load("tsparticles", {
                 area: 2000
             },
             limit: 0,
-            value: 200
+            value: 150
         },
         opacity: {
             animation: {
