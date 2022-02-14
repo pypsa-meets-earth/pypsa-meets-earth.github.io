@@ -448,7 +448,7 @@ section {
 .section-pic-fluss {
     background: url("../img/custom/fluss.jpeg") center center no-repeat;
     background-size: cover;
-    min-height: 1000px;
+    min-height: 200px;
 }
 
 .section-particle {
@@ -1069,6 +1069,9 @@ canvas {
     width: 100%;
     padding: 0;
     overflow: hidden;
+    margin: 0 auto;
+    min-width: auto;
+    padding-bottom:0%'
   }
   .embed-responsive::before {
     display: block;
@@ -1081,11 +1084,11 @@ canvas {
   .embed-responsive video {
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: 0%;
     left: 25%;
     width: 50%;
-    min-height: 200;
     border: 0;
+    margin: 0 auto;
   }
   
   
