@@ -1,9 +1,8 @@
 # PyPSA meets Africa website
 
-The "PyPSA meets Africa" website can be used as template for your own purpose.
-We built it using the following features:
+The "PyPSA meets Africa" website can be used as template for your own purpose. The html code is located in the `index.html` and the css (styling of website) is located in `assets/css`.
 
-
+To use the website, it is worth to investigate the following features that we build in:
 - Bootstrap template:
     Template Name: Bocor, 
     Template URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/,

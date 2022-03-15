@@ -445,6 +445,12 @@ section {
     min-height: 400px;
 }
 
+.section-pic-fluss {
+    background: url("../img/custom/fluss.jpeg") center center no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
+
 .section-particle {
     min-height: 400px;
 }
@@ -1015,3 +1021,226 @@ canvas {
 #max {
     min-height: 600px;
 }
+
+
+
+/* ---- HiGHS.pdf ---- */
+
+@media print {
+    .d-print-none {
+      display: none !important;
+    }
+  
+    .d-print-inline {
+      display: inline !important;
+    }
+  
+    .d-print-inline-block {
+      display: inline-block !important;
+    }
+  
+    .d-print-block {
+      display: block !important;
+    }
+  
+    .d-print-table {
+      display: table !important;
+    }
+  
+    .d-print-table-row {
+      display: table-row !important;
+    }
+  
+    .d-print-table-cell {
+      display: table-cell !important;
+    }
+  
+    .d-print-flex {
+      display: flex !important;
+    }
+  
+    .d-print-inline-flex {
+      display: inline-flex !important;
+    }
+  }
+  .embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    min-width: auto;
+    padding-bottom:0%'
+  }
+  .embed-responsive::before {
+    display: block;
+    content: "";
+  }
+  .embed-responsive .embed-responsive-item,
+  .embed-responsive iframe,
+  .embed-responsive embed,
+  .embed-responsive object,
+  .embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0%;
+    left: 25%;
+    width: 50%;
+    border: 0;
+    margin: 0 auto;
+  }
+  
+  
+  .embed-responsive-21by9::before {
+    padding-top: 42.8571428571%;
+  }
+  
+  .embed-responsive-16by9::before {
+    padding-top: 56.25%;
+  }
+  
+  .embed-responsive-4by3::before {
+    padding-top: 75%;
+  }
+  
+  .embed-responsive-1by1::before {
+    padding-top: 100%;
+  }
+  
+  .flex-row {
+    flex-direction: row !important;
+  }
+  
+  .flex-column {
+    flex-direction: column !important;
+  }
+  
+  .flex-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  
+  .flex-column-reverse {
+    flex-direction: column-reverse !important;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap !important;
+  }
+  
+  .flex-nowrap {
+    flex-wrap: nowrap !important;
+  }
+  
+  .flex-wrap-reverse {
+    flex-wrap: wrap-reverse !important;
+  }
+  
+  .flex-fill {
+    flex: 1 1 auto !important;
+  }
+  
+  .flex-grow-0 {
+    flex-grow: 0 !important;
+  }
+  
+  .flex-grow-1 {
+    flex-grow: 1 !important;
+  }
+  
+  .flex-shrink-0 {
+    flex-shrink: 0 !important;
+  }
+  
+  .flex-shrink-1 {
+    flex-shrink: 1 !important;
+  }
+  
+  .justify-content-start {
+    justify-content: flex-start !important;
+  }
+  
+  .justify-content-end {
+    justify-content: flex-end !important;
+  }
+  
+  .justify-content-center {
+    justify-content: center !important;
+  }
+  
+  .justify-content-between {
+    justify-content: space-between !important;
+  }
+  
+  .justify-content-around {
+    justify-content: space-around !important;
+  }
+  
+  .align-items-start {
+    align-items: flex-start !important;
+  }
+  
+  .align-items-end {
+    align-items: flex-end !important;
+  }
+  
+  .align-items-center {
+    align-items: center !important;
+  }
+  
+  .align-items-baseline {
+    align-items: baseline !important;
+  }
+  
+  .align-items-stretch {
+    align-items: stretch !important;
+  }
+  
+  .align-content-start {
+    align-content: flex-start !important;
+  }
+  
+  .align-content-end {
+    align-content: flex-end !important;
+  }
+  
+  .align-content-center {
+    align-content: center !important;
+  }
+  
+  .align-content-between {
+    align-content: space-between !important;
+  }
+  
+  .align-content-around {
+    align-content: space-around !important;
+  }
+  
+  .align-content-stretch {
+    align-content: stretch !important;
+  }
+  
+  .align-self-auto {
+    align-self: auto !important;
+  }
+  
+  .align-self-start {
+    align-self: flex-start !important;
+  }
+  
+  .align-self-end {
+    align-self: flex-end !important;
+  }
+  
+  .align-self-center {
+    align-self: center !important;
+  }
+  
+  .align-self-baseline {
+    align-self: baseline !important;
+  }
+  
+  .align-self-stretch {
+    align-self: stretch !important;
+  }
+  
