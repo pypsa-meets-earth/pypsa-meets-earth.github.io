@@ -13,3 +13,13 @@ To use the website, it is worth to investigate the following features that we bu
 - Logomakr for vector logos
 
 As code environment, we had code experience using VScode and the "Live Server" add-on.
+
+
+TODOOOO
+- Start with 1 pager with all content
+- Our Results (list)
+- Team (partner institutions)
+- Selected packages on main page & all packages on another page
+- Discord channel
+- Development pipeline
+- Put content on separate pages

@@ -14,7 +14,7 @@ tsParticles.load("tsparticles", {
             },
             onHover: {
                 enable: true,
-                mode: "connect",
+                mode: "bubble",
                 parallax: {
                     enable: false,
                     force: 2,
@@ -25,7 +25,7 @@ tsParticles.load("tsparticles", {
         },
         modes: {
             bubble: {
-                distance: 40,
+                distance: 80,
                 duration: 2,
                 opacity: 8,
                 size: 10,
@@ -63,7 +63,7 @@ tsParticles.load("tsparticles", {
     },
     particles: {
         color: {
-            value: ["#4285f4", "#34A853", "#FBBC05", "#EA4335"]
+            value: ["#ffffff"]
         },
         lineLinked: {
             blink: false,
