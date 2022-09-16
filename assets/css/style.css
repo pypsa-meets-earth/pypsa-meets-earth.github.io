@@ -122,7 +122,7 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0 10px 30px;
+    padding: 10px 20px 10px 10px;
     font-size: 14px;
     color: #0f334e;
     white-space: nowrap;
@@ -620,8 +620,9 @@ section {
 }
 
 .getinvolved img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 180px;
+    padding-top: 10px;
 }
 
 .getinvolved2 {

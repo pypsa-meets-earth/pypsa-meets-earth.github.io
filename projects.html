@@ -86,18 +86,16 @@
     <!-- ======= Header ======= -->
     <header id="header">
         <div class="container d-flex align-items-center justify-content-around justify-content-md-between">
-
             <div class="logo">
                 <!-- <h1><a href="index.html">Bocor<span>.</span></a></h1> -->
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
             </div>
-
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero"></a></li>
-                    <li><a class="nav-link scrollto" href="index.html">What we do</a></li>
-                    <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
+                    <li><a class="nav-link scrollto" href="index.html#intro">What we do</a></li>
+                    <li class="dropdown"><a href="projects.html"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                           <li><a href="projects.html#model">Open framework and model</a></li>
                           <li><a href="projects.html#data">Open data</a></li>
@@ -106,22 +104,28 @@
                         </ul>
                     </li>
                     <li><a class="nav-link scrollto" href="#clients">Team</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Newsletter</a></li>
-                    <li><a class="nav-link scrollto" href="highs.html">HiGHS campaign</a></li> 
-                    <li><a class="getstarted scrollto" href="#getinvolved">Get involved</a></li>
+                    <li><a class="nav-link scrollto" href="results.html">Results</a></li>
+                    <li class="dropdown"><a href="#"><span>Support us</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="support_us.html#developer">Are you developer?</a></li>
+                            <li><a href="support_us.html#groupleader">Are you group leader?</a></li>
+                            <li><a href="support_us.html#funder">Are you funding-provider?</a></li>
+                        </ul>
+                    </li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
                 
                 <script src="https://platform.linkedin.com/in.js" type="text/javascript">
                     lang: en_US
                 </script>
-
                 <script type="IN/FollowCompany" data-id="77178374" data-counter="bottom"></script>
+                <div class="logo">
+                    <a href="https://discord.gg/AnuJBk23FU"><img src="assets/img/discord-logo-mini.png" alt="" class="img-fluid"></a>
+                </div>
         </div>
+    </div>
         </nav>
-        <!-- .navbar -->
-
-        </div>
+    </div>
     </header>
     <!-- End Header -->
 
@@ -136,10 +140,8 @@
                 Many of the data, model, solver activities are neutral to the model framework, opening
                 the door for collaboration also outside of the PyPSA space. 
                 The tools are developed
-                and maintained by members of the multi-organizational PyPSA meets Earth initiative or Tom Browns
-                multi-organizational working group <a href="https://pypsa.org/">https://pypsa.org/</a>.
-                Members of the initiative are also part of Tom's working group, hence you can contact any
-                of us.               
+                and maintained by members of the multi-organizational PyPSA meets Earth initiative and Tom Browns
+                multi-organizational working group <a href="https://pypsa.org/">https://pypsa.org/</a>.               
                 </p>
             </div>
         </div>
@@ -153,6 +155,7 @@
                 <div class="col-lg-3 container-fluid text-center px-4">
                     <h2><a href="https://pypsa.readthedocs.io/en/latest/">PyPSA</a></h2>
                     <p>A python software toolbox for simulating and optimising modern power systems.
+                        <br>
                         <img src="/assets/img/get_involved/pypsa.png" onmouseover="this.src='/assets/img/get_involved/gifs/pypsa.gif'" onmouseout="this.src='/assets/img/get_involved/pypsa.png'" alt="PyPSA network image">
                     </p>
                     <a href="https://pypsa.readthedocs.io/en/latest/">
@@ -167,6 +170,7 @@
                 <div class="col-lg-3 container-fluid text-center px-4">
                     <h2><a href="https://github.com/PyPSA/pypsa-eur">PyPSA-Eur</a></h2>
                     <p>An open optimisation model of the European transmission system.
+                        <br>
                         <img src="/assets/img/get_involved/pypsa-eur.png" onmouseover="this.src='/assets/img/get_involved/gifs/pypsa-eur.gif'" onmouseout="this.src='/assets/img/get_involved/pypsa-eur.png'" alt="European Transmission Network image">
                     </p>
                     <a href="https://pypsa-eur.readthedocs.io/en/latest/">
@@ -181,6 +185,7 @@
                 <div class="col-lg-3 container-fluid text-center px-4">
                     <h2><a href="https://github.com/PyPSA/pypsa-eur-sec">PyPSA-Eur-Sec</a></h2>
                     <p>A sector-coupled open optimisation model of the European energy system.
+                        <br>
                         <img src="/assets/img/get_involved/pypsa-eur-sec.png" alt="Sector coupled model image">
                     </p>
                     <a href="https://pypsa-eur-sec.readthedocs.io/en/latest/">
@@ -195,6 +200,7 @@
                 <div class="col-lg-3 container-fluid text-center px-4">
                     <h2><a href="https://github.com/pypsa-meets-africa/pypsa-africa">PyPSA-Earth</a></h2>
                     <p>A flexible open sector-coupled optimization model of the global energy system.
+                        <br>
                         <img src="/assets/img/get_involved/earth-network.png" alt="pypsa-earth image">
                     </p>
                     <a href="https://pypsa-meets-africa.readthedocs.io/en/latest/how_to_contribute.html">
@@ -209,6 +215,7 @@
                 <div class="col-lg-3 container-fluid text-center px-4">
                     <h2><a href="https://model.energy/">Model.Energy</a></h2>
                     <p>An online toolkit for calculating renewable electricity supplies around the world.
+                        <br>
                         <img src="/assets/img/get_involved/model-energy.png" alt="model-energy image">
                     </p>
                     <a href="https://model.energy/">
@@ -223,6 +230,7 @@
                 <div class="col-lg-3 container-fluid text-center px-4">
                     <h2><a href="https://model.energy/scenarios/">Model.Scenarios</a></h2>
                     <p>An online toolkit for running and exploring PyPSA-Eur-Sec senarios.
+                        <br>
                         <img src="/assets/img/get_involved/model-energy.png" alt="model-energy image">
                     </p>
                     <a href="https://model.energy/scenarios/">
@@ -246,6 +254,7 @@
                 <div class="col-lg-3 container-fluid text-center px-4">
                     <h2><a href="https://github.com/PyPSA/atlite">Atlite</a></h2>
                     <p>Convert weather data to energy systems data.
+                        <br>
                         <img src="/assets/img/get_involved/atlite.png" onmouseover="this.src='/assets/img/get_involved/gifs/atlitegif.gif'" onmouseout="this.src='/assets/img/get_involved/atlite.png'" alt="atlite image">
                     </p>
                     <a href="https://atlite.readthedocs.io/en/latest/">
@@ -260,6 +269,7 @@
                 <div class="col-lg-3 container-fluid text-center px-4">
                     <h2><a href="https://github.com/pypsa-meets-africa/demand-creator">Demand-Creator</a></h2>
                     <p>A machine learning toolbox to create demand-timeseries in subnational resolution.
+                        <br>
                         <img src="/assets/img/get_involved/demand-creator.png" alt="demand creator image">
                     </p>
                     <a href="https://github.com/pypsa-meets-africa/demand-creator">
@@ -271,6 +281,7 @@
                 <div class="col-lg-3 container-fluid text-center px-4">
                     <h2><a href="https://github.com/pypsa-meets-africa/pypsa-africa">Detect-Infra</a></h2>
                     <p>A machine learning pipeline to detect infrastructure from satellite images.
+                        <br>
                         <img src="/assets/img/get_involved/spacex.png" alt="spacex image">
                     </p>
                     <a href="https://github.com/pypsa-meets-africa/detect-energy">
@@ -282,6 +293,7 @@
                 <div class="col-lg-3 container-fluid text-center px-4">
                     <h2><a href="https://github.com/PyPSA/powerplantmatching">Powerplantmatching</a></h2>
                     <p>A toolbox to combine multiple powerplant databases.
+                        <br>
                         <img src="/assets/img/get_involved/powerplantmatching.png" onmouseover="this.src='/assets/img/get_involved/gifs/powerplantmatching.gif'" onmouseout="this.src='/assets/img/get_involved/powerplantmatching.png'" alt="powerplantmatching image">
                     </p>
                     <a href="https://powerplantmatching.readthedocs.io/en/latest/">
@@ -296,6 +308,7 @@
                 <div class="col-lg-3 container-fluid text-center px-4">
                     <h2><a href="https://github.com/PyPSA/technology-data">Technology Data</a></h2>
                     <p>A tool that compiles assumptions on energy system technologies.
+                        <br>
                         <img src="/assets/img/get_involved/technology-data.jpg" alt="technology-data image">
                     </p>
                     <a href="https://technology-data.readthedocs.io/en/latest/">
@@ -319,6 +332,7 @@
                 <div class="col-lg-3 container-fluid text-center px-4">
                     <h2><a href="https://github.com/PyPSA/linopy">Linopy</a></h2>
                     <p>Linear optimization interface for Python.
+                        <br>
                         <img src="/assets/img/get_involved/linopy.png" onmouseover="this.src='/assets/img/get_involved/gifs/linopy.gif'" onmouseout="this.src='/assets/img/get_involved/linopy.png'" alt="linopy image">
                     </p>
                     <a href="https://linopy.readthedocs.io/en/latest/">
@@ -333,6 +347,7 @@
                 <div class="col-lg-3 container-fluid text-center px-4">
                     <h2><a href="https://pypsa-meets-africa.github.io/highs.html">HiGHS-campaign</a></h2>
                     <p>We organised a campaign, collecting +500k$, to make the worlds-fastest open-source solver HiGHS ready for large energy planning problems.
+                        <br>
                         <img src="/assets/img/custom/HiGHS_logo.jpg" alt="HiGHS image">
                     </p>
                     <a href="https://zenodo.org/record/6534004#.Yx4lmGzMJQo">
