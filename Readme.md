@@ -1,6 +1,6 @@
-# PyPSA meets Africa website
+# PyPSA meets Earth website
 
-The "PyPSA meets Africa" website can be used as template for your own purpose. The html code is located in the `index.html` and the css (styling of website) is located in `assets/css`.
+The "PyPSA meets Earth" website can be used as template for your own purpose. The html code is located in the `index.html` and the css (styling of website) is located in `assets/css`.
 
 To use the website, it is worth to investigate the following features that we build in:
 - Bootstrap template:
@@ -13,13 +13,3 @@ To use the website, it is worth to investigate the following features that we bu
 - Logomakr for vector logos
 
 As code environment, we had code experience using VScode and the "Live Server" add-on.
-
-
-TODOOOO
-- Start with 1 pager with all content
-- Our Results (list)
-- Team (partner institutions)
-- Selected packages on main page & all packages on another page
-- Discord channel
-- Development pipeline
-- Put content on separate pages
