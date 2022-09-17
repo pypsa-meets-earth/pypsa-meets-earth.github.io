@@ -852,7 +852,7 @@ section {
 --------------------------------------------------------------*/
 
 #footer {
-    background: url("../img/footer-bg.jpg") center center no-repeat;
+    background: url("../img/footer-bg.jpg") center center;
     color: #fff;
     font-size: 14px;
     position: relative;
