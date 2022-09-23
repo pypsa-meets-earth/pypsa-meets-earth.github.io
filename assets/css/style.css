@@ -635,6 +635,16 @@ section {
     padding-top: 7%;
 }
 
+.support_us {
+  padding: 0;
+}
+
+.support_us img {
+  width: auto%;
+  height: 450px;
+  padding-top: 10px;
+}
+
 
 /*--------------------------------------------------------------
 # LinkedIN
