@@ -502,6 +502,11 @@ section {
     margin-bottom: 0;
 }
 
+.section-title ul {
+    list-style: none;
+    padding: 0;
+}
+
 
 /*--------------------------------------------------------------
 # Clients
