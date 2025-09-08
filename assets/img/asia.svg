@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation: isolate;" width="300" height="300" viewBox="0 0 300 300">
+    <defs>
+        <clipPath id="_clipPath_asia"><rect width="300" height="300" /></clipPath>
+    </defs>
+    <g clip-path="url(#_clipPath_asia)">
+        <path
+            fill="none"
+            fill-rule="evenodd"
+            stroke="#ffffff"
+            stroke-linecap="square"
+            stroke-linejoin="miter"
+            stroke-miterlimit="3"
+            stroke-width="1"
+            d="M 40 80 L 100 60 L 160 70 L 220 65 L 280 80 L 270 120 L 250 160 L 230 200 L 200 230 L 160 250 L 120 260 L 80 240 L 60 200 L 50 160 L 40 120 L 40 80 Z"
+            vector-effect="non-scaling-stroke"
+        />
+    </g>
+</svg>

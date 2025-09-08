@@ -1,3 +1,18 @@
+// Array of available continent/world map shapes
+const availableShapes = [
+    "assets/img/smalldeer_africa.svg",
+    "assets/img/europe.svg",
+    "assets/img/asia.svg",
+    "assets/img/north_america.svg",
+    "assets/img/south_america.svg",
+    "assets/img/oceania.svg",
+    "assets/img/world_simple.svg"
+];
+
+// Randomly select a shape for this page load
+const selectedShape = availableShapes[Math.floor(Math.random() * availableShapes.length)];
+console.log('Selected particle shape:', selectedShape);
+
 tsParticles.load("tsparticles", {
     detectRetina: false,
     interactivity: {
@@ -157,7 +172,7 @@ tsParticles.load("tsparticles", {
                     inlineArrangement: "equidistant",
                     scale: 1.2,
                     type: "inside",
-                    url: "assets/img/smalldeer_africa.svg"
+                    url: selectedShape
                 },
             }
         },
@@ -176,7 +191,7 @@ tsParticles.load("tsparticles", {
                     inlineArrangement: "equidistant",
                     scale: 1.5,
                     type: "inside",
-                    url: "assets/img/smalldeer_africa.svg"
+                    url: selectedShape
                 },
             }
         }
