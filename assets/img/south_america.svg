@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation: isolate;" width="300" height="300" viewBox="0 0 300 300">
+    <defs>
+        <clipPath id="_clipPath_southamerica"><rect width="300" height="300" /></clipPath>
+    </defs>
+    <g clip-path="url(#_clipPath_southamerica)">
+        <path
+            fill="none"
+            fill-rule="evenodd"
+            stroke="#ffffff"
+            stroke-linecap="square"
+            stroke-linejoin="miter"
+            stroke-miterlimit="3"
+            stroke-width="1"
+            d="M 120 80 L 180 90 L 220 110 L 240 150 L 230 190 L 200 230 L 170 260 L 140 280 L 110 270 L 90 250 L 80 220 L 70 190 L 80 160 L 100 130 L 110 100 L 120 80 Z"
+            vector-effect="non-scaling-stroke"
+        />
+    </g>
+</svg>
