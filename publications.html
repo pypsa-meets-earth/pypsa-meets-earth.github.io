@@ -3,35 +3,36 @@
 
 <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
     <!-- HTML Meta Tags -->
-    <title>PyPSA meets Earth - An open energy system model initiative for our Earth.</title>
-    <meta name="description" content="The PyPSA meets Earth initiative works on open energy system planning, open data, and open communities to enable better and trusted decision-making."/>
+    <title>PyPSA meets Earth - Publications</title>
+    <meta name="description" content="Scientific papers and project reports from the PyPSA meets Earth initiative. Explore our research contributions to open energy system planning.">
     <!-- Google verfication to be 'findable' on google -->
     <meta name="google-site-verification" content="gHJzkLzpVaJqghYQHRS6GrS92bTJjLyfr9FUIxQCd2U" />
     <!-- Authors -->
     <link rel="author" href="https://pypsa-earth.readthedocs.io/en/latest/project_structure_and_credits.html"/>
 
     <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="PyPSA meets Earth. An open energy system model initiative for our Earth."/>
-    <meta itemprop="description" content="The PyPSA meets Earth initiative works on open energy system planning, open data, and open communities to enable better and trusted decision-making."/>
-    <meta itemprop="image" content="http://pypsa-meets-earth.github.io/assets/img/website_screenshot.png"/>
+    <meta itemprop="name" content="PyPSA meets Earth - Publications">
+    <meta itemprop="description" content="Scientific papers and project reports from the PyPSA meets Earth initiative. Explore our research contributions.">
+    <meta itemprop="image" content="http://pypsa-meets-earth.github.io/assets/img/website_screenshot.png">
 
     <!-- Facebook Meta Tags -->
-    <meta name="title" property="og:title" content="PyPSA meets Earth - An open energy system model initiative for our Earth."/>
-    <meta name="type" property="og:type" content="website"/>
-    <meta name="image" property="og:image" content="http://pypsa-meets-earth.github.io/assets/img/website_screenshot.png"/>
-    <meta name="url" property="og:url" content="https://pypsa-meets-earth.github.io"/>
-    <meta name="description" property="og:description" content="The PyPSA meets Earth initiative works on open energy system planning, open data, and open communities to enable better and trusted decision-making."/>
+    <meta property="og:url" content="https://pypsa-meets-earth.github.io/publications.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PyPSA meets Earth - Publications">
+    <meta property="og:description" content="Scientific papers and project reports from the PyPSA meets Earth initiative. Explore our research contributions.">
+    <meta property="og:image" content="http://pypsa-meets-earth.github.io/assets/img/website_screenshot.png">
 
     <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:title" content="PyPSA meets Earth - An open energy system model initiative for our Earth."/>
-    <meta name="twitter:description" content="The PyPSA meets Earth initiative works on open energy system planning, open data, and open communities to enable better and trusted decision-making."/>
-    <meta name="twitter:image" content="http://pypsa-meets-earth.github.io/assets/img/website_screenshot.png"/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PyPSA meets Earth - Publications">
+    <meta name="twitter:description" content="Scientific papers and project reports from the PyPSA meets Earth initiative. Explore our research contributions.">
+    <meta name="twitter:image" content="http://pypsa-meets-earth.github.io/assets/img/website_screenshot.png">
 
     <!-- Meta Tags Generated via http://heymeta.com -->
-    <meta content="open source, energy system modelling, pypsa, earth, energy, power grid" name="keywords">
+    <meta content="open source, energy system modelling, pypsa, earth, energy, publications, research" name="keywords">
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -49,32 +50,24 @@
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <!-- Bootstrap CSS
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
-  -->
-  <!-- Template Main CSS File -->
+    <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Marked.js for Markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@4.0.0/marked.min.js"></script>
  
-    
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5D0EVH2HFL"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-5D0EVH2HFL');
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    
-    <!-- Import Custom Components -->
-    <script src="src/components/MaintainerTag.js"></script>
-    <script src="src/components/ControlledDocBanner.js"></script>
 
     <!-- =======================================================
   * Based on Template Name: Bocor - v4.3.0
@@ -90,13 +83,11 @@
     <header id="header">
         <div class="container d-flex align-items-center justify-content-around justify-content-md-between">
             <div class="logo">
-                <!-- <h1><a href="index.html">Bocor<span>.</span></a></h1> -->
-                <!-- Uncomment below if you prefer to use an image logo -->
                 <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
             </div>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto" href="#hero"></a></li>
+                    <li><a class="nav-link scrollto" href="index.html"></a></li>
                     <li class="dropdown"><a href="projects.html"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                           <li><a href="projects.html#model">Open framework and model</a></li>
@@ -106,20 +97,14 @@
                         </ul>
                     </li>
                     <li><a class="nav-link scrollto" href="team.html">Team</a></li>
-                    <li><a class="nav-link active" href="tutorial.html">Tutorials</a></li>
+                    <li><a class="nav-link" href="tutorial.html">Tutorials</a></li>
                     <li class="dropdown"><a href="publications.html"><span>Publications</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="publications.html#scientific-papers">Scientific Papers</a></li>
                             <li><a href="publications.html#project-reports">Project Reports</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Join Us</span> <i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="support_us_developer.html">Are you developer?</a></li>
-                            <li><a href="support_us_group_leader.html">Are you group leader?</a></li>
-                            <li><a href="support_us_funder.html">Are you funding-provider?</a></li>
-                        </ul>
-                    </li>
+                    <li><a class="nav-link" href="join_us.html">Join Us</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
                 
@@ -136,13 +121,100 @@
     <!-- End Header -->
 
     <main id="main">
-        <!-- Start Tutorial Section -->
-        <section id="tutorial-markdown" class="section-bg">
-            <div class="container">
-                <div id="markdown-content"></div>
+        
+        <!-- ======= Publications Header ======= -->
+        <section id="publications-header" class="section-bg">
+            <div class="container my-5">
+                <div class="section-title">
+                    <h2 data-aos="fade-in">Publications</h2>
+                    <p data-aos="fade-in">Our research contributions and project deliverables advancing open energy system planning for a sustainable future.</p>
+                </div>
             </div>
         </section>
-        <!-- End Tutorial Section -->
+
+        <!-- ======= Scientific Papers Section ======= -->
+        <section id="scientific-papers" class="support_us">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <div id="scientific-papers-content" style="padding:20px; font-size: 16px; line-height: 1.8;">
+                            <!-- Content will be loaded from markdown -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Picture banner section ==== -->
+        <section id="hero">
+            <section class="py-5 section-pic-fluss">
+                    <div class="container my-5">
+                    </div>
+            </section>
+        </section>
+
+        <!-- ======= Project Reports Section ======= -->
+        <section id="project-reports" class="support_us section-bg">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <div id="project-reports-content" style="padding:20px; font-size: 16px; line-height: 1.8;">
+                            <!-- Content will be loaded from markdown -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======= Newsletter Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title col-lg-8 container-fluid">
+                    <h2>Newsletter</h2>
+                    <p>Sign up to our newsletter to receive quarterly summaries, updates on events and special opportunities.</p>
+                </div>
+
+                <div class="col-lg-8 mt-4 mt-lg-0 container-fluid">
+                    <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSdHxlgo4lYj66LjahsGGMqdE3gGOKBvNvDsMgTNt5WD2mSJgQ/formResponse" method="post" role="form" class="php-email-form w-100" data-aos="fade-up">
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="entry.2005620554" class="form-control" id="name" placeholder="First Name" required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <input type="text" class="form-control" name="entry.1045781291" id="name" placeholder="Last Name" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 form-group mt-3">
+                                <input type="email" class="form-control" name="entry.1065046570" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="col-md-6 form-group mt-3">
+                                <input type="text" class="form-control" name="entry.1166974658" id="subject" placeholder="Organization" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="entry.1065046570" id="subject" placeholder="Country of residence" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input class="form-control" name="entry.1683940057" placeholder="Comments/Feedback" optional>
+                        </div>
+
+                        <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Send Message</button></div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Newsletter Section -->
+
     </main>
     <!-- End #main -->
 
@@ -158,7 +230,6 @@
                         <h3>PyPSA meets Earth</h3>
                     </div>
                 </div>
-
 
                 <div class="social-links">
 
@@ -207,11 +278,7 @@
                 &copy; Copyright <strong><span>Maximilian Parzen</span></strong>. <br> <a href="https://github.com/pypsa-meets-earth/pypsa-meets-earth.github.io">Code for MIT licensed website (here). Enjoy!</a>
             </div>
             <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/ -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> <br> Logos from <a href=" https://logomakr.com/5HgsGO#">Logomakr</a> <br> Images produced by <a href="https://www.flickr.com/photos/184249102@N03/page2">Iban Ameztoy</a>                and <a href="https://www.flickr.com/photos/andymilnerastro/20126916706/in/photolist-wExH8h-2ivPWVq-2jdhJnW-Ld9kjV-2hJHi7C-bWX1Y-2iQ2z2H-2kxt5U6-2cNhVnU-9RfrVs-2iQua29-iwBvnX-7witeh-2d1WD9M-2iyr9GJ-DhAni8-NkxEa3-cCewFJ-6HxTxk-5PfNcf-F9YNLR-2ek8URh-2ivQGJx-2gG6tm1-UcBypo-2dfH7Fp-ER5CL1-dJ4SAt-24HVPAK-2iP292i-26ja82Q-axzBQi-2iPV8Ck-22sprGi-2iP27Xp-2iyqrYp-De8Ct1-2iyvdyd-S8336x-2kxwM1F-2iyrbFj-QDqm6p-2dsJM8M-VQCcff-pGxCtG-SgBURu-SgBxay-X4sYN5-Ghq9Xi-2epHSnr/">Andy Milner</a>
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> <br> Logos from <a href=" https://logomakr.com/5HgsGO#">Logomakr</a> <br> Images produced by <a href="https://www.flickr.com/photos/184249102@N03/page2">Iban Ameztoy</a> and <a href="https://www.flickr.com/photos/andymilnerastro/20126916706/in/photolist-wExH8h-2ivPWVq-2jdhJnW-Ld9kjV-2hJHi7C-bWX1Y-2iQ2z2H-2kxt5U6-2cNhVnU-9RfrVs-2iQua29-iwBvnX-7witeh-2d1WD9M-2iyr9GJ-DhAni8-NkxEa3-cCewFJ-6HxTxk-5PfNcf-F9YNLR-2ek8URh-2ivQGJx-2gG6tm1-UcBypo-2dfH7Fp-ER5CL1-dJ4SAt-24HVPAK-2iP292i-26ja82Q-axzBQi-2iPV8Ck-22sprGi-2iP27Xp-2iyqrYp-De8Ct1-2iyvdyd-S8336x-2kxwM1F-2iyrbFj-QDqm6p-2dsJM8M-VQCcff-pGxCtG-SgBURu-SgBxay-X4sYN5-Ghq9Xi-2epHSnr/">Andy Milner</a>
             </div>
         </div>
     </footer>
@@ -234,85 +301,28 @@
     <script src="assets/js/custom_particle.js"></script>
     <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
 
-    <!-- Load Markdown content -->
+    <!-- Load Markdown Content -->
     <script>
-    // Fetch MDX content from GitHub
-    fetch('https://raw.githubusercontent.com/open-energy-transition/handbook/main/docs/Engineering/Trainings.mdx')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Failed to fetch tutorial content');
+        // Function to load and render markdown content
+        async function loadMarkdownContent(filePath, targetElementId) {
+            try {
+                const response = await fetch(filePath);
+                const markdown = await response.text();
+                const html = marked.parse(markdown);
+                document.getElementById(targetElementId).innerHTML = html;
+            } catch (error) {
+                console.error(`Error loading ${filePath}:`, error);
+                document.getElementById(targetElementId).innerHTML = '<p>Error loading content. Please try again later.</p>';
             }
-            return response.text();
-        })
-        .then(text => {
-            // Store component data before cleaning
-            const componentData = {
-                maintainerEmails: [],
-                hasBanner: false
-            };
-            const emailToName = {
-                'charlotte.heikendorf@openenergytransition.org': 'Charlotte Heikendorf',
-                'hazem.abdelkhalek@openenergytransition.org': 'Hazem Abdel-Khalek'
-            };
+        }
 
-            // Extract MaintainerTag emails
-            const maintainerMatch = text.match(/<MaintainerTag\s+maintainerEmails=\{(\[.*?\])\}\s*\/>/);
-            if (maintainerMatch) {
-                try {
-                    // Parse the email array from the component
-                    const emailsStr = maintainerMatch[1].replace(/"/g, '"').replace(/"/g, '"');
-                    const emails = ['charlotte.heikendorf@openenergytransition.org', 'hazem.abdelkhalek@openenergytransition.org'];
-                    componentData.maintainerEmails = emails.map(email => ({
-                        name: emailToName[email],
-                        email: email
-                    }));
-                } catch (e) {
-                    console.warn('Could not parse maintainer emails:', e);
-                }
-            }
-
-            // Check for ControlledDocBanner
-            componentData.hasBanner = text.includes('<ControlledDocBanner');
-
-            // Clean up MDX-specific syntax
-            let cleanedText = text
-                .replace(/^---[\s\S]*?---/m, '') // Remove YAML frontmatter
-                .replace(/^import\s+.*?from\s+["'].*?["'];?\s*$/gm, '') // Remove import statements
-                .replace(/<MaintainerTag[^>]*\/>/g, '{{MAINTAINER_TAG}}') // Placeholder for MaintainerTag
-                .replace(/<ControlledDocBanner[^>]*\/>/g, '{{CONTROLLED_DOC_BANNER}}') // Placeholder for banner
-                .trim();
-            
-            // Parse the Markdown content
-            let htmlContent = marked.parse(cleanedText);
-
-            // Replace placeholders with actual components
-            if (componentData.maintainerEmails.length > 0) {
-                const maintainerTag = new MaintainerTag(componentData.maintainerEmails);
-                htmlContent = htmlContent.replace('{{MAINTAINER_TAG}}', maintainerTag.render());
-            }
-
-            if (componentData.hasBanner) {
-                const banner = new ControlledDocBanner({
-                    message: 'This document is part of the OET Engineering Handbook.',
-                    type: 'info'
-                });
-                htmlContent = htmlContent.replace('{{CONTROLLED_DOC_BANNER}}', banner.render());
-            }
-
-            // Render the final content
-            document.getElementById('markdown-content').innerHTML = htmlContent;
-        })
-        .catch(error => {
-            console.error('Error fetching MDX:', error);
-            document.getElementById('markdown-content').innerHTML = 
-                '<div class="alert alert-warning">' +
-                '<h4>Unable to load tutorial content</h4>' +
-                '<p>Please check your internet connection or try again later.</p>' +
-                '<p>You can also view the content directly at: ' +
-                '<a href="https://github.com/open-energy-transition/handbook/blob/main/docs/Engineering/Trainings.mdx" target="_blank">GitHub</a></p>' +
-                '</div>';
+        // Load both sections when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadMarkdownContent('publications/scientific-papers.md', 'scientific-papers-content');
+            loadMarkdownContent('publications/project-reports.md', 'project-reports-content');
         });
     </script>
+
 </body>
 
 </html>
