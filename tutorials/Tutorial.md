@@ -5,7 +5,7 @@ sidebar_label: "Trainings"
 import MaintainerTag from "@site/src/components/MaintainerTag";
 import ControlledDocBanner from "@site/src/components/ControlledDocBanner";
 
-<MaintainerTag maintainerEmails={["hazem.abdelkhalek@openenergytransition.org", "harry.vanderweijde@openenergytransition.org"]} />
+<MaintainerTag maintainerEmails={["charlotteheikendorf@openenergytransition.org", "hazemabdelkhalek@openenergytransition.org"]} />
 
 # Trainings
 

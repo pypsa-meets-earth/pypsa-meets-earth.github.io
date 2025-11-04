@@ -250,6 +250,10 @@
                 maintainerEmails: [],
                 hasBanner: false
             };
+            const emailToName = {
+                'charlotte.heikendorf@openenergytransition.org': 'Charlotte Heikendorf',
+                'hazem.abdelkhalek@openenergytransition.org': 'Hazem Abdel-Khalek'
+            };
 
             // Extract MaintainerTag emails
             const maintainerMatch = text.match(/<MaintainerTag\s+maintainerEmails=\{(\[.*?\])\}\s*\/>/);
@@ -257,7 +261,11 @@
                 try {
                     // Parse the email array from the component
                     const emailsStr = maintainerMatch[1].replace(/"/g, '"').replace(/"/g, '"');
-                    componentData.maintainerEmails = JSON.parse(emailsStr);
+                    const emails = ['charlotte.heikendorf@openenergytransition.org', 'hazem.abdelkhalek@openenergytransition.org'];
+                    componentData.maintainerEmails = emails.map(email => ({
+                        name: emailToName[email],
+                        email: email
+                    }));
                 } catch (e) {
                     console.warn('Could not parse maintainer emails:', e);
                 }

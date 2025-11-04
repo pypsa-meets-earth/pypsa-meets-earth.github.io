@@ -4,13 +4,13 @@
  */
 
 class MaintainerTag {
-    constructor(maintainerEmails) {
-        this.emails = maintainerEmails;
+    constructor(maintainers) {
+        this.maintainers = maintainers;
     }
 
     render() {
-        const emailLinks = this.emails.map(email => {
-            return `<a href="mailto:${email}" class="maintainer-email">${email}</a>`;
+        const maintainerLinks = this.maintainers.map(maintainer => {
+            return `<a href="mailto:${maintainer?.email || ''}" class="maintainer-email" title="${email}">${maintainer?.name || ''}</a>`;
         }).join(', ');
 
         return `
@@ -21,7 +21,7 @@ class MaintainerTag {
                     </svg>
                 </div>
                 <div class="maintainer-content">
-                    <strong>Maintainers:</strong> ${emailLinks}
+                    <strong>Maintainers:</strong> ${maintainerLinks}
                 </div>
             </div>
         `;
