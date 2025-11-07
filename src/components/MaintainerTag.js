@@ -10,7 +10,7 @@ class MaintainerTag {
 
     render() {
         const maintainerLinks = this.maintainers.map(maintainer => {
-            return `<a href="mailto:${maintainer?.email || ''}" class="maintainer-email" title="${email}">${maintainer?.name || ''}</a>`;
+            return `<a href="mailto:${maintainer?.email || ''}" class="maintainer-email" title="${maintainer?.email || ''}">${maintainer?.name || ''}</a>`;
         }).join(', ');
 
         return `
