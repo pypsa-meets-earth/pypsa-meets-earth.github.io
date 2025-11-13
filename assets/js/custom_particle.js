@@ -1,12 +1,10 @@
 // Array of available continent/world map shapes
 const availableShapes = [
-    "assets/img/smalldeer_africa.svg",
+    "assets/img/north_america.svg",
     "assets/img/europe.svg",
     "assets/img/asia.svg",
-    "assets/img/north_america.svg",
-    "assets/img/south_america.svg",
     "assets/img/oceania.svg",
-    "assets/img/world_simple.svg"
+    "assets/img/africa.svg",
 ];
 
 // Randomly select a shape for this page load
