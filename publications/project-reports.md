@@ -4,6 +4,12 @@ Technical reports and project deliverables from our collaborative initiatives.
 
 ## Current Active Projects
 
+**Project Title:** HYPAT. In-depth techno-economic assessment of hydrogen and PtX export supply chains  
+**Duration:** 2023-2024  
+**Partners:** Fraunhofer ISI, Fraunhofer IEG, Fraunhofer ISE
+[Download Report](https://hypat.de/hypat-wAssets/docs/new/publikationen/HYPAT_Techno-economic-results_Main_V1_FOR-PUBLICATION.pdf)
+
+<!--
 ### Environmental Defense Fund Partnership
 **Project Title:** Training and Assistance of Energy System Modelling Teams Worldwide  
 **Duration:** 2023-2024  
@@ -82,6 +88,8 @@ Technical reports and project deliverables from our collaborative initiatives.
 ### Completed Project Reports
 - [2021-2022 Initiative Summary](https://drive.google.com/file/d/1BcbKOTSnbjPjKfqn6F_b2U3s2bGdOJ_n/preview)
 - [PyPSA Ecosystem Development Report](https://pypsa.readthedocs.io/en/latest/users.html)
+
+-->
 
 ## Request Project Collaboration
 
