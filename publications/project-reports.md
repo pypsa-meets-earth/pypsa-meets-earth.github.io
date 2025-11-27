@@ -1,18 +1,19 @@
-# Project Reports
+# Selected Project Reports
 
 Technical reports and project deliverables from our collaborative initiatives.
 
-## Current Active Projects
+## Completed Projects
 
-**Project Title:** Modernising Kazakhstan’s coal-dependent power sector through renewables  
+### Modernising Kazakhstan’s coal-dependent power sector through renewables
 **Duration:** 2024  
-**Partners:** Agora Energiewende, Open Energy Transition
+**Partners:** Agora Energiewende, Open Energy Transition  
 [Download Report](https://www.agora-energiewende.org/fileadmin/Projekte/2023/2023_27_PST_Kazakhstan_2023/A-EW_319_Kazakhstan_2023_EN_WEB.pdf)
 
+---
 
-**Project Title:** HYPAT. In-depth techno-economic assessment of hydrogen and PtX export supply chains  
-**Duration:** 2023-2024  
-**Partners:** Fraunhofer ISI, Fraunhofer IEG, Fraunhofer ISE
+### HYPAT. In-depth techno-economic assessment of hydrogen and PtX export supply chains
+**Duration:** 2023–2024  
+**Partners:** Fraunhofer ISI, Fraunhofer IEG, Fraunhofer ISE  
 [Download Report](https://hypat.de/hypat-wAssets/docs/new/publikationen/HYPAT_Techno-economic-results_Main_V1_FOR-PUBLICATION.pdf)
 
 <!--
