@@ -2,7 +2,7 @@
 
 Our research contributions to the scientific community through peer-reviewed publications.
 
-## 2023 Publications
+## Model description
 
 ### PyPSA-Earth sector-coupled: A global open-source multi-energy system model showcased for hydrogen applications in countries of the Global South
 **Authors:** Hazem Abdel-Khalek, Leon Schumm, Eddy Jalbout, Maximilian Parzen, Caspar Schauß, Davide Fioriti 
@@ -29,6 +29,8 @@ Our research contributions to the scientific community through peer-reviewed pub
 
 
 ---
+
+## Applications
 
 ### The impact of temporal hydrogen regulion on hydrogen exporters and their domestic energy transition
 **Authors:** Leon Schumm, Hazem Abdel-Khalek, Tom Brown, Falko Ueckerdt, Michael Sterner, Maximilian Parzen & Davide Fioriti
